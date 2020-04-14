@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/divide"
+        android:layout_centerInParent="true"
+        android:paddingTop="50dp"
+        android:src="@drawable/welcome_ic_logo" />
+
+    <TextView
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standardMargin"
+        android:layout_below="@id/divide"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:text="HCrown   " />
+</RelativeLayout>

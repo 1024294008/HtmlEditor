@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HCrown</string>
+    <string name="test">测试</string>
+    <string name="loadUrlHint">输入网址</string>
+    <string name="tab1">编辑</string>
+    <string name="tab2">浏览</string>
+    <string name="tab3">设置</string>
+    <string name="back_icon">﹤返回</string>
+    <string name="html_file_template_default">&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n\t&lt;meta charset=\"UTF-8\"&gt;\n\t&lt;title&gt;Title&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n\n&lt;/body&gt;\n&lt;/html&gt;</string>
+</resources>

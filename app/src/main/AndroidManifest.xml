@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hp.htmleditor">
+
+    <!-- sd卡存取权限申请 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 网络访问权限申请 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/HtmlEditorTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/WelcomeTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".LoaderActivity" />
+        <activity
+            android:name=".EditorActivity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data
+                    android:scheme="content"
+                    android:mimeType="text/html"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".HtmlTemplateListActivity" />
+        <activity
+            android:name=".HtmlTemplateEditorActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ButtonDefineEditorActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ButtonDefineListActivity" />
+    </application>
+
+</manifest>

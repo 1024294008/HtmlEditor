@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels>
+    <label_a>
+        <label version="N">a</label>
+        <label version="N">abbr</label>
+        <label version="N">acronym</label>
+        <label version="N">address</label>
+        <label version="A">applet</label>
+        <label version="N">area</label>
+        <label version="F">article</label>
+        <label version="F">aside</label>
+        <label version="F">audio</label>
+    </label_a>
+    <label_b>
+        <label version="N">b</label>
+        <label version="N">base</label>
+        <label version="A">basefont</label>
+        <label version="F">bdi</label>
+        <label version="N">bdo</label>
+        <label version="N">big</label>
+        <label version="N">blockquote</label>
+        <label version="N">body</label>
+        <label version="N">br</label>
+        <label version="N">button</label>
+    </label_b>
+    <label_c>
+        <label version="F">canvas</label>
+        <label version="N">caption</label>
+        <label version="A">center</label>
+        <label version="N">cite</label>
+        <label version="N">code</label>
+        <label version="N">col</label>
+        <label version="N">colgroup</label>
+        <label version="F">command</label>
+    </label_c>
+    <label_d>
+        <label version="F">datalist</label>
+        <label version="N">dd</label>
+        <label version="N">del</label>
+        <label version="F">details</label>
+        <label version="A">dir</label>
+        <label version="N">div</label>
+        <label version="N">dfn</label>
+        <label version="F">dialog</label>
+        <label version="N">dl</label>
+        <label version="N">dt</label>
+    </label_d>
+    <label_e>
+        <label version="N">em</label>
+        <label version="F">embed</label>
+    </label_e>
+    <label_f>
+        <label version="N">fieldset</label>
+        <label version="F">figcaption</label>
+        <label version="F">figure</label>
+        <label version="A">font</label>
+        <label version="F">footer</label>
+        <label version="N">form</label>
+        <label version="N">frame</label>
+        <label version="N">frameset</label>
+    </label_f>
+    <label_g>
+    </label_g>
+    <label_h>
+        <label version="N">h1</label>
+        <label version="N">h2</label>
+        <label version="N">h3</label>
+        <label version="N">h4</label>
+        <label version="N">h5</label>
+        <label version="N">h6</label>
+        <label version="N">head</label>
+        <label version="F">header</label>
+        <label version="N">hr</label>
+        <label version="N">html</label>
+    </label_h>
+    <label_i>
+        <label version="N">i</label>
+        <label version="N">iframe</label>
+        <label version="N">img</label>
+        <label version="N">input</label>
+        <label version="N">ins</label>
+        <label version="A">isindex</label>
+    </label_i>
+    <label_j>
+    </label_j>
+    <label_k>
+        <label version="N">kbd</label>
+        <label version="F">keygen</label>
+    </label_k>
+    <label_l>
+        <label version="N">label</label>
+        <label version="N">legend</label>
+        <label version="N">li</label>
+        <label version="N">link</label>
+    </label_l>
+    <label_m>
+        <label version="N">map</label>
+        <label version="F">mark</label>
+        <label version="N">menu</label>
+        <label version="N">menuitem</label>
+        <label version="N">meta</label>
+        <label version="F">meter</label>
+    </label_m>
+    <label_n>
+        <label version="F">nav</label>
+        <label version="N">noframes</label>
+        <label version="N">noscript</label>
+    </label_n>
+    <label_o>
+        <label version="N">object</label>
+        <label version="N">ol</label>
+        <label version="N">optgroup</label>
+        <label version="N">option</label>
+        <label version="F">output</label>
+    </label_o>
+    <label_p>
+        <label version="N">p</label>
+        <label version="N">param</label>
+        <label version="N">pre</label>
+        <label version="F">progress</label>
+    </label_p>
+    <label_q>
+        <label version="N">q</label>
+    </label_q>
+    <label_r>
+        <label version="F">rp</label>
+        <label version="F">rt</label>
+        <label version="F">ruby</label>
+    </label_r>
+    <label_s>
+        <label version="A">s</label>
+        <label version="N">samp</label>
+        <label version="N">script</label>
+        <label version="F">section</label>
+        <label version="N">select</label>
+        <label version="N">small</label>
+        <label version="F">source</label>
+        <label version="N">span</label>
+        <label version="A">strike</label>
+        <label version="N">strong</label>
+        <label version="N">style</label>
+        <label version="N">sub</label>
+        <label version="F">summary</label>
+        <label version="N">sup</label>
+    </label_s>
+    <label_t>
+        <label version="N">table</label>
+        <label version="N">tbody</label>
+        <label version="N">td</label>
+        <label version="N">textarea</label>
+        <label version="N">tfoot</label>
+        <label version="N">th</label>
+        <label version="N">thead</label>
+        <label version="F">time</label>
+        <label version="N">title</label>
+        <label version="N">tr</label>
+        <label version="F">track</label>
+        <label version="N">tt</label>
+    </label_t>
+    <label_u>
+        <label version="A">u</label>
+        <label version="N">ul</label>
+    </label_u>
+    <label_v>
+        <label version="N">var</label>
+        <label version="F">video</label>
+    </label_v>
+    <label_w>
+        <label version="F">wbr</label>
+    </label_w>
+    <label_x>
+        <label version="A">xmp</label>
+    </label_x>
+    <label_y>
+    </label_y>
+    <label_z>
+    </label_z>
+</labels>

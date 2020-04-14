@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loadUrlSize">14sp</dimen>
+    <dimen name="loadBoxHeight">55dp</dimen>
+    <dimen name="setOptionHeight">6dp</dimen>
+    <dimen name="standardMargin">10dp</dimen>
+    <dimen name="standardPadding">10dp</dimen>
+    <dimen name="standardBoundary">1dp</dimen>
+    <dimen name="standardTitleSize">19sp</dimen>
+    <dimen name="standardContentSize">18sp</dimen>
+    <dimen name="descriptionSize">14sp</dimen>
+    <dimen name="standardEditorSize">16sp</dimen>
+    <dimen name="editorFunctionSetContentSize">15sp</dimen>
+</resources>

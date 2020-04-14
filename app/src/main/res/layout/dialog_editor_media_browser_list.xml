@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/transparent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/standardPadding"
+        android:paddingBottom="@dimen/standardPadding"
+        android:layout_margin="@dimen/standardMargin"
+        android:background="@drawable/standard_xml_dialog_bg2">
+        <ListView
+            android:id="@+id/mediaList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/standardSelect"
+            android:listSelector="@drawable/htmlist_xml_item_bg">
+        </ListView>
+        <RelativeLayout
+            android:id="@+id/emptyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_above="@id/emptyViewDivide"
+                android:layout_centerInParent="true"
+                android:paddingTop="50dp"
+                android:src="@drawable/editor_ic_tag_add_attr_null" />
+            <TextView
+                android:id="@+id/emptyViewDivide"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_centerInParent="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emptyViewDivide"
+                android:layout_centerHorizontal="true"
+                android:text="什么都没有!!" />
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/closeMedia"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/editor_ic_browser_view_close"/>
+    </RelativeLayout>
+</FrameLayout>
+</LinearLayout>

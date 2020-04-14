@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BrowserFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loadBoxHeight"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/standardMargin"
+        android:background="@color/colorWhite">
+        <EditText
+            android:id="@+id/loadUrlContent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="@dimen/loadUrlSize"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/browser_xml_input_bg"
+            android:hint="@string/loadUrlHint"
+            android:maxLines="1"
+            android:imeOptions="actionSearch"
+            android:inputType="textUri"
+            android:paddingStart="@dimen/standardPadding"
+            android:paddingEnd="@dimen/standardPadding"/>
+        <ImageButton
+            android:id="@+id/loadUrlSearch"
+            android:layout_width="@dimen/loadBoxHeight"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:padding="15dp"
+            android:src="@drawable/browser_xml_search"/>
+        <ImageButton
+            android:id="@+id/toHtml"
+            android:layout_width="@dimen/loadBoxHeight"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:padding="15dp"
+            android:src="@drawable/browser_xml_tohtml_bg"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+        <WebView
+            android:id="@+id/loadWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ProgressBar
+            android:id="@+id/loadProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <RelativeLayout
+            android:id="@+id/emptyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_above="@id/emptyViewDivide"
+                android:layout_centerInParent="true"
+                android:paddingTop="50dp"
+                android:src="@drawable/browser_ic_waitting" />
+
+            <TextView
+                android:id="@+id/emptyViewDivide"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emptyViewDivide"
+                android:layout_centerHorizontal="true"
+                android:text="搜一下!!" />
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</LinearLayout>
